@@ -9,7 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: azure;
+  background-color: rgb(4, 59, 59);
 }
 
 html {
@@ -18,6 +18,13 @@ html {
 
 p {
   color: rgb(85, 85, 85);
+}
+
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 /* TRANSITION */
@@ -29,6 +36,13 @@ a,
 
 /* DESKTOP NAV */
 
+#desktop-nav {
+  top: 0;
+  position: sticky;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(8px);
+}
+
 nav,
 .nav-links {
   display: flex;
@@ -37,7 +51,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 10vh;
 }
 
 .nav-links {
@@ -46,10 +60,15 @@ nav {
   font-size: 1.5rem;
 }
 
+.logo a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
 .nav-links a {
   position: relative;
   font-size: 18px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: 500;
   text-decoration: none;
   margin-left: 40px;
@@ -101,7 +120,7 @@ nav {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   transition: all 0.3 ease-in-out;
 }
 
@@ -195,6 +214,7 @@ section {
 .section__text {
   align-self: center;
   text-align: center;
+  color: white;
 }
 
 .section__text p {
@@ -203,11 +223,13 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  color: white;
 }
 
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  color: white;
 }
 
 .title {
@@ -247,7 +269,8 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(255, 255, 255) 0.1rem solid;
+  color: white;
 }
 
 .btn-color-1:hover,
@@ -262,7 +285,7 @@ section {
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: rgb(255, 0, 0);
 }
 
 .btn-color-2 {
