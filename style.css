@@ -1,6 +1,8 @@
 /* GENERAL */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.cdnfonts.com/css/technology');
+@import url('https://fonts.cdnfonts.com/css/omegaforce');
 
 * {
   margin: 0;
@@ -14,6 +16,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  z-index: 1;
 }
 
 p {
@@ -46,12 +49,14 @@ a,
 nav,
 .nav-links {
   display: flex;
+  font-family: 'OmegaForce Expanded Italic', sans-serif;
 }
 
 nav {
   justify-content: space-around;
   align-items: center;
   height: 10vh;
+  z-index: 1;
 }
 
 .nav-links {
@@ -62,7 +67,7 @@ nav {
 
 .logo a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(232, 230, 255);
 }
 
 .nav-links a {
@@ -81,7 +86,7 @@ nav {
   left: 0;
   width: 0;
   height: 2px;
-  background: rgb(255, 0, 0);
+  background: rgb(238, 23, 23);
   transition: .3s;
 }
 
@@ -235,6 +240,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  font-family: 'Technology', sans-serif;
 }
 
 #socials-container {
