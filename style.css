@@ -236,7 +236,9 @@ section {
   margin-bottom: 1rem;
   color: rgb(197, 197, 197);
 }
-
+.section__text__p1,.section__text__p2 {
+  
+}
 .title {
   font-size: 3rem;
   text-align: center;
@@ -303,6 +305,7 @@ section {
 
 #about {
   position: relative;
+  margin-top: 10%;
 }
 
 .about-containers {
