@@ -11,7 +11,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(4, 59, 59);
+  background:linear-gradient(#ffffde,	#f3ffdc,#ebfffa,	#e4efff,#ffd5fc)
 }
 
 html {
@@ -42,7 +42,7 @@ a,
 #desktop-nav {
   top: 0;
   position: sticky;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(216, 216, 216, 0.4);
   backdrop-filter: blur(8px);
 }
 
@@ -67,13 +67,13 @@ nav {
 
 .logo a {
   text-decoration: none;
-  color: rgb(232, 230, 255);
+  color: rgb(51, 9, 16);
 }
 
 .nav-links a {
   position: relative;
   font-size: 18px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-weight: 500;
   text-decoration: none;
   margin-left: 40px;
@@ -228,13 +228,13 @@ section {
 
 .section__text__p1 {
   text-align: center;
-  color: white;
+  color: rgb(185, 185, 185);
 }
 
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
-  color: white;
+  color: rgb(197, 197, 197);
 }
 
 .title {
