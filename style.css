@@ -25,9 +25,14 @@ p {
 
 .back-video {
   position: absolute;
-  right: 0;
-  bottom: 0;
   z-index: -1;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 /* TRANSITION */
@@ -107,6 +112,10 @@ nav {
 
 #hamburger-nav {
   display: none;
+  top: 0;
+  position: sticky;
+  background-color: rgba(216, 216, 216, 0.4);
+  backdrop-filter: blur(8px);
 }
 
 .hamburger-menu {
@@ -469,7 +478,7 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
+  height: 20vh;
   margin: 0 1rem;
 }
 
